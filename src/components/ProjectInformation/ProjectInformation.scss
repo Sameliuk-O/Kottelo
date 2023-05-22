@@ -1,0 +1,43 @@
+.project_information__modal {
+
+  &-list {
+    list-style-type: none;
+    padding: 0;
+
+    .btn {
+      margin-left: 2.5rem;
+    }
+  }
+
+  &-title {
+    padding: 24px 36px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #6A7185;
+  }
+
+  &-progress {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.6rem 3.2rem;
+    font-weight: 400;
+    line-height: 1.9rem;
+    color: #6a7185;
+
+    border-radius: 0 50px 50px 0;
+
+    transition: .3s ease-in-out;
+  }
+
+  &-block {
+    display: flex;
+    justify-content: center;
+
+    gap: 50px;
+  }
+
+}

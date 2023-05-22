@@ -1,0 +1,49 @@
+.modal_project {
+  //display: flex;
+  //justify-content: center;
+
+
+  &__block {
+    .small-title {
+      margin-bottom: 10px;
+    }
+
+    &-info {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  &__title {
+    display: flex;
+    margin-left: 10px;
+
+    &-edit {
+      margin-left: 10px;
+    }
+  }
+
+  &__block-status {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #83BF6E;
+    border-radius: 5px;
+    width: 27%;
+    color: #FFFFFF;
+  }
+
+  .edit-project_name {
+
+    .field__input {
+      width: 25rem;
+      margin-left: 3rem;
+      border-radius: 5px;
+    }
+
+    .btn {
+      width: 25rem;
+      margin-top: 9px;
+      height: 4.9rem;
+    }
+  }
+}
